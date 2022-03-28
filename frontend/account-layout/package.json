@@ -1,0 +1,16 @@
+{
+  "name": "@healthy-front/account-layout",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Sergey Bondar <abobopw@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --open  --hot"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@healthy/webpack-front",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Sergey Bondar <abobopw@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts"
+}

@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "frontend/*",
+    "configuration/*"
+  ],
+  "version": "0.0.0"
+}

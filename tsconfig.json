@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "healthy_front_statistic/app": ["./frontend/statistic/src/App.tsx"],
+      "healthy_front_account/app": ["./frontend/account/src/App.tsx"]
+    }
+  }
+}
