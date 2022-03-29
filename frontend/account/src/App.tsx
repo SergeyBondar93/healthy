@@ -3,7 +3,7 @@ const App = () => {
     <div style={{
       background: 'lightblue'
     }} >
-      This is account page
+      This is account page V3
     </div>
   )
 }

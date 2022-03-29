@@ -6,7 +6,7 @@ import { dependencies } from "./package.json";
 const config = generateConfig({
   port: 3001,
   ModuleFederationPlugin: new container.ModuleFederationPlugin({
-    name: "layout",
+    name: "general",
     filename: "remoteEntry.js",
     remotes: {
       healthy_front_statistic: "healthy_front_statistic@http://localhost:3002/remoteEntry.js",

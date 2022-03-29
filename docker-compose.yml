@@ -1,0 +1,12 @@
+general:
+  image: general:latest
+  ports:
+   - "3001:80"
+statistic:
+  image: statistic:latest
+  ports:
+   - "3002:80"
+account:
+  image: account:latest
+  ports:
+   - "3003:80"

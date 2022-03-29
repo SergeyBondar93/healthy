@@ -7,8 +7,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "npx ts-node ./killPorts.ts && npx lerna run start",
-    "start:layout": "npx lerna run --scope @healthy-front/account-layout"
+    "clear": "npx rimraf ./frontend/**/dist/**",
+    "start": "npx ts-node ./killPortsProcesses.ts && npx lerna run start",
+    "build:all": "npx lerna run build",
+    "start:layout": "npx lerna run --scope @healthy-front/account-layout",
+
+    "create-container": "npx lerna run create-container",
+    "start:docker": "docker-compose up -d",
+
+    "stop": "docker stop $(docker ps -aq); docker rm $(docker ps -aq)"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
@@ -22,6 +29,7 @@
     "html-webpack-plugin": "^5.5.0",
     "lerna": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3",
     "webpack": "^5.70.0",

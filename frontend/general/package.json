@@ -1,12 +1,14 @@
 {
-  "name": "@healthy-front/account-layout",
+  "name": "@healthy-front/general",
   "version": "0.0.0",
   "description": "",
   "author": "Sergey Bondar <abobopw@gmail.com>",
   "homepage": "",
   "license": "ISC",
   "scripts": {
-    "start": "webpack-dev-server --open  --hot"
+    "start": "webpack-dev-server --open  --hot",
+    "build": "webpack --mode production",
+    "create-container": "docker build -t general ."
   },
   "dependencies": {
     "react": "^17.0.2",

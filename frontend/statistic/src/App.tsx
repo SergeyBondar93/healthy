@@ -5,7 +5,7 @@ const App = () => {
     <div style={{
       background: 'red'
     }} >
-      This is statistic Page version 2
+      This is statistic Page version 4
     </div>
   )
 }
