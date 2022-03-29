@@ -9,8 +9,10 @@ const config = generateConfig({
     name: "general",
     filename: "remoteEntry.js",
     remotes: {
-      healthy_front_statistic: "healthy_front_statistic@http://localhost:3002/remoteEntry.js",
-      healthy_front_account: "healthy_front_account@http://localhost:3003/remoteEntry.js",
+      healthy_front_statistic: "healthy_front_statistic@/module_statistic/remoteEntry.js",
+      healthy_front_account: "healthy_front_account@/module_account/remoteEntry.js",
+      // healthy_front_statistic: "healthy_front_statistic@http://localhost:3002/remoteEntry.js",
+      // healthy_front_account: "healthy_front_account@http://localhost:3003/remoteEntry.js",
     },
     shared: {
       ...dependencies,
